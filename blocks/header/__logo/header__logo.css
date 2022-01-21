@@ -1,9 +1,5 @@
 .header__logo {
   width:176px;
   height:52px;
-  background: no-repeat;
-  position: absolute;
-  left: 64px;
-  top: 30px;
   background-image: url(../../../images/logo-rus.svg);
 }
