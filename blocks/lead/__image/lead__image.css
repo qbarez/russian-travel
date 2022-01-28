@@ -1,3 +1,4 @@
 .lead__image {
-
+background-image: url(../../../images/group_4route.svg);
+z-index: 2;
 }
