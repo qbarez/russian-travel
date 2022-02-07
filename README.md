@@ -1,11 +1,5 @@
 # Проект: Путешествие по России
-Проект описывает популярные и не очень туристические места в России и поможет определиться с местом проведения отпуска в России в любое время года.
-
-## Ссылка на сайт:
-https://qbarez.github.io/russian-travel/index.html
-
-## Ссылка на макет в Figma:
-https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
+Проект описывает популярные и не очень туристические места в России. Он поможет определиться с местом проведения отпуска в России в любое время года.
 
 ## Использованные технологии:
 * HTML
@@ -16,6 +10,13 @@ https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mob
 * Адаптивная вёрстка
 * Медиазапросы
 * и т.д.
+
+## Ссылка на сайт:
+https://qbarez.github.io/russian-travel/index.html
+
+## Ссылка на макет в Figma:
+https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
+
 
 ## Планы по доработке
 * Оптимизировать адаптивность сайта для большего количества устройств

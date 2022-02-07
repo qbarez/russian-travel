@@ -1,8 +1,27 @@
 .cover__overlay-link {
-  min-height: 740px;
   display: block;
+  min-height: 740px;
   z-index: 2;
   grid-row-start: 1;
   grid-row-end: 3;
-  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay-link {
+    min-height: 58vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay-link {
+    min-height: 63vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay-link {
+    min-height: 200px;
+  }
 }
