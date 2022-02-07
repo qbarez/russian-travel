@@ -1,6 +1,6 @@
 .lead__image-conteiner {
+  max-width: 984px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
