@@ -13,9 +13,9 @@
   opacity: .8;
 }
 
-.header__lang-link:focus {
+/*.header__lang-link:focus {
   text-decoration: underline;
-}
+}*/
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
