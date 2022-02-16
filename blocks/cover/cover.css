@@ -5,6 +5,10 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
+  background-image: url(../../images/cover__background-trains.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .cover:before {

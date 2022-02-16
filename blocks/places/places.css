@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 90.625%;
+    max-width: 90.62%;
   }
 }
 
@@ -30,8 +30,8 @@
 @media screen and (max-width: 320px) {
   .places {
     gap: 50px;
-    padding-bottom: 64px;
     padding-top: 64px;
+    padding-bottom: 66px;
 
   }
 }
