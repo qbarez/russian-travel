@@ -1,14 +1,15 @@
 .cover {
   max-width: 1184px;
+  min-height: 740px;
   margin: 0 auto;
   position: relative;
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
   background-image: url(../../images/cover__background-trains.jpg);
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
 }
 
 .cover:before {
@@ -27,9 +28,26 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover {
     grid-gap: 16px;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
+}
